@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="mobile-container">
+      <header>
+        <input type="text" />
+        <button id="search"><i class="fas fa-search"></i></button>
+      </header>
+      <div class="fav-container">
+        <h3>Favorite Meals</h3>
+        <ul class="fav-meals">
+          <li>
+            <img
+              src="https://www.themealdb.com/images/ingredients/Lime.png"
+              alt=""
+            /><span>Lime</span>
+          </li>
+          <li>
+            <img
+              src="https://www.themealdb.com/images/ingredients/apple.png"
+              alt=""
+            /><span>Apple</span>
+          </li>
+          <li>
+            <img
+              src="https://www.themealdb.com/images/ingredients/onion.png"
+              alt=""
+            /><span>Onion</span>
+          </li>
+          <li>
+            <img
+              src="https://www.themealdb.com//images//media//meals//qptpvt1487339892.jpg"
+              alt=""
+            /><span>Nuggets</span>
+          </li>
+        </ul>
+      </div>
+      <div class="meals">
+        <div class="meal">
+          <div class="meal-header">
+            <span class="random"> Random Recipes </span>
+            <img
+              src="https://www.themealdb.com//images//media//meals//qptpvt1487339892.jpg"
+              alt=""
+            />
+          </div>
+          <div class="meal-body">
+            <h4>Nugget Nuggets</h4>
+            <button class="fav-btn"><i class="fas fa-heart"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
